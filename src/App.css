@@ -1,5 +1,6 @@
-body {
+.App {
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,4 +36,10 @@ button {
   margin-bottom: 6rem;
   font-size: 1.4rem;
   color: white;
+}
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 90%;
+    padding: 1rem;
+  }
 }
